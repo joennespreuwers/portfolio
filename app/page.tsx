@@ -134,9 +134,11 @@ export default function Portfolio() {
                     src={image.src || "/placeholder.svg"}
                     alt={image.alt}
                     priority={index < 2}
+                    loading={index < 2 ? "eager" : "lazy"}
                     fill
-                    sizes="500px"
+                    sizes="(max-width: 768px) 300px, 500px"
                     className="object-cover transition-transform duration-500 group-hover:scale-105 rounded-lg"
+                    quality={85}
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/70 transition-all duration-500 flex items-center justify-center rounded-lg">
                     <p className="text-white tracking-wider text-sm text-center px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-tinos md:text-4xl">
@@ -183,8 +185,10 @@ export default function Portfolio() {
               src={me}
               alt="Portrait of Joenne Spreuwers"
               fill
+              loading="lazy"
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover rounded-lg"
+              quality={85}
             />
           </div>
         </div>
@@ -201,8 +205,10 @@ export default function Portfolio() {
               src={contact}
               alt="Portrait of Joenne Spreuwers outdoors"
               fill
+              loading="lazy"
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover rounded-lg"
+              quality={85}
             />
           </div>
         </div>

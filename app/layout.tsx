@@ -5,12 +5,14 @@ import "./globals.css";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const tinos = Tinos({
   variable: "--font-tinos",
   subsets: ["latin"],
   weight: ["400","700"],
+  display: "swap",
 });
 
 
