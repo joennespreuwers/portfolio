@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import { portfolioImages } from "./portfolioImages";
-import me from "@/public/images/wandeling-4.jpg";
-import contact from "@/public/images/midzomer-99.jpg";
+import me from "@/public/images/wandeling-4.webp";
+import contact from "@/public/images/midzomer-99.webp";
 import CoffeeIcon from "@/public/coffee.svg";
 import PawIcon from "@/public/paw.svg";
 
