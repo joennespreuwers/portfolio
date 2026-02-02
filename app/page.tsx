@@ -229,9 +229,9 @@ export default function Portfolio() {
             {/* Mail */}
             <a
               className="text-lg md:text-xl lg:text-2xl font-tinos underline text-right hover:opacity-70 transition-opacity break-all"
-              href="mailto:spreuwersjoenne@gmail.com"
+              href="mailto:joenne@studio3000.be"
             >
-              spreuwersjoenne@gmail.com
+              joenne@studio3000.be
             </a>
             <br />
             {/* LinkedIn / Instagram */}
